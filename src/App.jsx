@@ -1,12 +1,11 @@
 import React from 'react'
 import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='h-screen bg-black text-white '>
-      <div className="h-[90%] flex">
-        <Sidebar /> 
-      </div>
+    <div className='h-screen overflow-y-auto'>
+      <Navbar />
     </div>
   )
 }
