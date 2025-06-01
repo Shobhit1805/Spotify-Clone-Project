@@ -9,7 +9,7 @@ const Searchbar = () => {
       <input
         type="text"
         placeholder="What do you want to play?"
-        className="bg-transparent outline-none placeholder-gray-400 pl-3 w-full"
+        className="bg-transparent outline-none placeholder-[#B3B3B3] pl-3 w-full"
       />
     </div>
   );

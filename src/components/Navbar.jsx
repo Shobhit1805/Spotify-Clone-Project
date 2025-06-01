@@ -8,15 +8,9 @@ const Navbar = () => {
       {/* Left Side */}
       <div className='h-full w-6/12 flex items-center'>
         <img
-          className='h-[50%] rounded-full ml-1 gap-1 cursor-pointer 
-                     hover:scale-110 hover:text-white 
-                     transition-all duration-200 ease-in-out'
-          src="image.png"
-          alt="Spotify Logo"
+          className='h-[50%] rounded-full ml-1 gap-1 cursor-pointer hover:scale-110 hover:text-white transition-all duration-200 ease-in-out' src="image.png" alt="Spotify Logo"
         />
-        <div className='h-12 w-12 rounded-full ml-8 bg-[#1F1F1F] flex items-center 
-                        cursor-pointer hover:scale-110 hover:text-white 
-                        transition-all duration-200 ease-in-out'>
+        <div className='h-12 w-12 rounded-full ml-8 bg-[#1F1F1F] flex items-center cursor-pointer hover:scale-110 hover:text-white transition-all duration-200 ease-in-out'>
           <img className='h-6 m-auto' src="homeIcon.png" alt="Home" />
         </div>
         <Searchbar />
@@ -28,8 +22,7 @@ const Navbar = () => {
           {['Premium', 'Support', 'Download'].map((text, idx) => (
             <span
               key={idx}
-              className='cursor-pointer hover:scale-110 hover:text-white 
-                         transition-all duration-200 ease-in-out'
+              className='cursor-pointer hover:scale-110 hover:text-white transition-all duration-200 ease-in-out'
             >
               {text}
             </span>
@@ -39,23 +32,17 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div className='flex items-center gap-2 ml-4 h-full text-sm mr-2 font-sm 
-                        cursor-pointer hover:scale-110 hover:text-white 
-                        transition-all duration-200 ease-in-out'>
+        <div className='flex items-center gap-2 ml-4 h-full text-sm mr-2 font-sm cursor-pointer hover:scale-110 hover:text-white transition-all duration-200 ease-in-out'>
           <img className='ml-4 text-sm mr-1 h-4' src="install.png" alt="" />
           Install App
         </div>
 
-        <div className='gap-2 ml-4 text-sm mr-4 cursor-pointer 
-                        hover:scale-110 hover:text-white 
-                        transition-all duration-200 ease-in-out'>
+        <div className='gap-2 ml-4 text-sm mr-4 cursor-pointer hover:scale-110 hover:text-white transition-all duration-200 ease-in-out'>
           Sign up
         </div>
 
         <div>
-          <button className='bg-white font-bold text-black px-8 py-3 rounded-full 
-                             hover:bg-gray-200 hover:scale-110 
-                             transition-all duration-200 ease-in-out cursor-pointer'>
+          <button className='bg-white font-bold text-black px-8 py-3 rounded-full hover:bg-gray-200 hover:scale-110 transition-all duration-200 ease-in-out cursor-pointer'>
             Log in
           </button>
         </div>
