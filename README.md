@@ -64,5 +64,5 @@ npm run dev
 ## 🧑‍💻 Author
 
 **Shobhit Jain**  
-📧 Email: [shobhitjain.dev@gmail.com](mailto:shobhitj1805@gmail.com)  
+📧 Email: [shobhitj1805@gmail.com](mailto:shobhitj1805@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/shobhit-jain1805/) | [GitHub](https://github.com/Shobhit1805)
