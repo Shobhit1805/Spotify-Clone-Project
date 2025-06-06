@@ -1,6 +1,6 @@
 import MuththaMazhaiSong from './MuththaMazhaiSong.mp3'
 import ShreeHanumanChalisaSong from './ShreeHanumanChalisaSong.mp3'
-import RCBAnthemSong from './RCBAnthemSong.mp3'
+import RcbAnthemSong from './RcbAnthemSong.mp3'
 import JaatIntroSong from './JaatIntroSong.mp3'
 import LoverSong from './LoverSong.mp3'
 import ShakySong from './ShakySong.mp3'
@@ -112,7 +112,7 @@ export const assets = {
     Viral50India,
     MuththaMazhaiSong,
     ShreeHanumanChalisaSong,
-    RCBAnthemSong,
+    RcbAnthemSong,
     JaatIntroSong,
     LoverSong,
     ShakySong ,
@@ -187,7 +187,7 @@ export const songsData = [
         id:2,
         name: "Rcb Anthem",
         image: RCBAnthem,
-        file: RCBAnthemSong,
+        file: RcbAnthemSong,
         desc:"Grey Face",
         duration:"3:01"
     },
