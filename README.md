@@ -1,19 +1,28 @@
-🎵 Spotify Clone
-A sleek and responsive Spotify-inspired music player built with React, Tailwind CSS, and React Router. This project mimics the look and feel of Spotify, featuring album browsing, song playback, dynamic UI effects, and context-based audio control.
+# 🎵 Spotify Clone
 
----------------
+A sleek and responsive Spotify-inspired music player built with **React**, **Tailwind CSS**, and **React Router**.  
+This project mimics the look and feel of Spotify, featuring album browsing, song playback, dynamic UI effects, and context-based audio control.  
+⚠️ **Optimized for large screens** — Best experienced on desktop or laptop devices.
 
-🚀 Features
-🎧 Audio Playback — Play, pause, seek, next/previous controls.
-📀 Albums & Songs — Browse a list of albums and songs with detailed info.
-⏱️ Seek Bar — Live track progress with draggable seek control.
-🔊 Volume Control — Adjustable volume with smooth UI interaction.
-🧠 Global Player Context — Centralized audio state management using React Context API.
-🖱️ Hover Interactions — Clean, interactive hover effects for song/album cards.
-📱 Responsive Design — Fully responsive UI for all screen sizes.
-🔗 Routing — Client-side navigation using React Router.
+---
 
-----------------
+## 🔗 Live Preview
+
+👉 [Check it out here](https://spotify-clone-project-shobhit-jains-projects-14450002.vercel.app/) 
+
+---
+
+## 🚀 Features
+
+- 🎧 **Audio Playback** — Play, pause, seek, next/previous controls.  
+- 📀 **Albums & Songs** — Browse a list of albums and songs with detailed info.  
+- ⏱️ **Seek Bar** — Live track progress with draggable seek control.  
+- 🔊 **Volume Control** — Adjustable volume with smooth UI interaction.  
+- 🧠 **Global Player Context** — Centralized audio state management using React Context API.  
+- 🖱️ **Hover Interactions** — Clean, interactive hover effects for song/album cards.  
+- 🔗 **Routing** — Client-side navigation using React Router.  
+
+---
 
 🛠 Tech Stack
 React
@@ -21,29 +30,35 @@ Tailwind CSS
 React Router
 HTML5 Audio API
 
+----------------
+
+📁 Project Structure:
+
+src/
+├── assets/            # Icons and image assets
+├── components/        # Reusable UI components like SongItem, AlbumItem, Player, etc.
+├── context/           # PlayerContext for managing playback globally
+├── pages/             # Page-level components
+├── App.jsx            # Root component
+├── main.jsx           # React entry point
+└── index.css          # Tailwind CSS styles
+
 -----------------
-## Installation
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/codewithbalaji/spotify-clone.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd spotify-clone
-    ```
-3. Install dependencies:
-    ```sh
-    npm install
-    ```
+🧪 How to Run: 
+# Clone the repository
+git clone https://github.com/your-username/spotify-clone.git
 
-## Usage
+# Navigate into the project directory
+cd spotify-clone
 
-1. Start the development server:
-    ```sh
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:5173`.
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+(Make sure you have Node.js and npm installed.)
 
 -----------------
 
