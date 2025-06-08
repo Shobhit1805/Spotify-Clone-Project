@@ -21,19 +21,6 @@ Tailwind CSS
 React Router
 HTML5 Audio API
 
-----------------
-
-📁 Project Structure:
-
-src/
-├── assets/            # Icons and image assets
-├── components/        # Reusable UI components like SongItem, AlbumItem, Player, etc.
-├── context/           # PlayerContext for managing playback globally
-├── pages/             # Page-level components
-├── App.jsx            # Root component
-├── main.jsx           # React entry point
-└── index.css          # Tailwind CSS styles
-
 -----------------
 
 🧪 How to Run: 
