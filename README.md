@@ -32,28 +32,36 @@ This project mimics the look and feel of Spotify, featuring album browsing, song
 
 -----------------
 
-🧪 How to Run: 
-# Clone the repository
-git clone https://github.com/your-username/spotify-clone.git
+## Installation
 
-# Navigate into the project directory
-cd spotify-clone
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-(Make sure you have Node.js and npm installed.)
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Shobhit1805/Spotify-Clone-Project.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd spotify-clone
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
 -----------------
 
-✨ Future Improvements
-🎙️ Add mood-based or AI-driven song recommendations
-📡 Backend integration for real music data
-🔐 Authentication & user playlists
-💾 Save playback position and preferences
+## ✨ Future Improvements
+
+- 🧠 **AI-driven or mood-based song recommendations**  
+  Enhance user experience by suggesting songs based on mood or listening behavior.
+
+- 🌐 **Backend integration for real-time music data**  
+  Fetch actual music metadata, album info, and streaming URLs from a backend or third-party API.
+
+- 🔐 **Authentication & user playlists**  
+  Allow users to sign in, create custom playlists, and save their favorite tracks.
+
+- 💾 **Save playback position and preferences**  
+  Resume from where users left off and retain their playback settings across sessions.
 
 -----------------
 
