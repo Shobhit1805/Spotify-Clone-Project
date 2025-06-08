@@ -24,24 +24,11 @@ This project mimics the look and feel of Spotify, featuring album browsing, song
 
 ---
 
-🛠 Tech Stack
-React
-Tailwind CSS
-React Router
-HTML5 Audio API
+## 🛠 Tech Stack
 
-----------------
-
-📁 Project Structure:
-
-src/
-├── assets/            # Icons and image assets
-├── components/        # Reusable UI components like SongItem, AlbumItem, Player, etc.
-├── context/           # PlayerContext for managing playback globally
-├── pages/             # Page-level components
-├── App.jsx            # Root component
-├── main.jsx           # React entry point
-└── index.css          # Tailwind CSS styles
+- **React**  
+- **React Router**  
+- **Tailwind CSS**
 
 -----------------
 
