@@ -22,21 +22,28 @@ React Router
 HTML5 Audio API
 
 -----------------
+## Installation
 
-🧪 How to Run: 
-# Clone the repository
-git clone https://github.com/your-username/spotify-clone.git
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/codewithbalaji/spotify-clone.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd spotify-clone
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-# Navigate into the project directory
-cd spotify-clone
+## Usage
 
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-(Make sure you have Node.js and npm installed.)
+1. Start the development server:
+    ```sh
+    npm start
+    ```
+2. Open your browser and navigate to `http://localhost:5173`.
 
 -----------------
 
